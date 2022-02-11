@@ -1,7 +1,0 @@
--- CreateTable
-CREATE TABLE "AlertChannels" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL,
-    "channelId" TEXT NOT NULL
-);
