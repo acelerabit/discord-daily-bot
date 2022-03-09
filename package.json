@@ -8,7 +8,7 @@
     "start": "node build/index.js",
     "build": "tsc",
     "dev": "nodemon src/index.ts",
-    "migrate:run": "prisma migrate dev"
+    "migrate:run": "prisma migrate deploy"
   },
   "engines": {
     "node": ">=16.13.2"
