@@ -4,7 +4,7 @@ import { prisma } from "./database/prisma";
 
 class AlertJobs {
   start(client: Bot) {
-    cron.schedule("30 17 * * MON,TUE,WED,THU,FRI", async () => {
+    cron.schedule("00 09 * * TUE,WED,THU,FRI", async () => {
       const channelsAlert = (await prisma.alertChannels.findMany()).map(
         (alertChannel) => alertChannel.channelId
       );
