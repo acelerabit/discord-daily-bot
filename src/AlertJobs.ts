@@ -13,7 +13,7 @@ class AlertJobs {
 
         if (channel && channel.isText()) {
           channel.send(
-            "Olá pessoal, boa tarde! Como foi o dia de vocês hoje? Quais foram os avanços? Estão com algum impedimento?"
+            "Fala @everyone, vamos pra daily! \n\n1) Quais os avanços ontem? \n\n2) Qual o objetivo de hoje?"
           );
         }
       });
